@@ -7,6 +7,10 @@ nav:
   - Status Updates:
     - index.md
 
+# Existing files but not in nav
+not_in_nav: |
+  thursday-1445.md
+
 # Theme
 theme:
  name: material

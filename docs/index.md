@@ -1,8 +1,8 @@
 # Thursday, 1:50 PM
 
-### 🚨 INCIDENT ALERT 🚨
-
 ```
+🚨 INCIDENT ALERT 🚨
+
 TIME: Thursday, 1:50 PM
 INCIDENT: Customer-facing dashboard showing stale data
 

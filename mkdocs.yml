@@ -15,8 +15,6 @@ theme:
     accent: red
  icon:
    logo: material/fire
-features:
-    - toc.integrate
 
 # Extensions
 markdown_extensions:
@@ -27,8 +25,6 @@ markdown_extensions:
   - markdown.extensions.def_list
   - markdown.extensions.footnotes
   - markdown.extensions.meta
-  - markdown.extensions.toc:
-      permalink: true
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -54,4 +50,3 @@ markdown_extensions:
 
 plugins:
   - search
-

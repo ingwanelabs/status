@@ -10,13 +10,15 @@
       
       
       
+        <link rel="next" href="../response-template/">
+      
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>Thursday, 2:45 PM - Ingwane Labs ~ Site Status</title>
+        <title>Thursday, 1:45 PM - Ingwane Labs ~ Site Status</title>
       
     
     
@@ -66,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#thursday-245-pm" class="md-skip">
+        <a href="#thursday-145-pm" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Thursday, 2:45 PM
+              Thursday, 1:45 PM
             
           </span>
         </div>
@@ -197,20 +199,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
         
           
           <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
@@ -226,7 +228,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             Status Updates
@@ -237,10 +239,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../thursday-1345/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -251,6 +262,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -349,35 +361,35 @@
 
 
 
-<h1 id="thursday-245-pm">Thursday, 2:45 PM<a class="headerlink" href="#thursday-245-pm" title="Permanent link">&para;</a></h1>
-<pre><code>🔥 ESCALATION UPDATE 🔥
+<h1 id="thursday-145-pm">Thursday, 1:45 PM<a class="headerlink" href="#thursday-145-pm" title="Permanent link">&para;</a></h1>
+<pre><code>🚨 INCIDENT ALERT 🚨
 
-TIME: Thursday, 2:45 PM ~ 1 hour after initial incident reported
-SITUATION DEVELOPMENT: Partial progress made, but new pressures emerging
+TIME: Thursday, 1:45 PM
+INCIDENT: Customer-facing dashboard showing stale data
 
-TECHNICAL UPDATE:
-• Initial fix implemented - pipeline is now running
-• Dashboard showing some data, but still missing 40% of daily records
-• Data validation issue partially resolved, but root cause still unclear
-• Estimated 2 more hours needed for complete data backfill and validation
+SITUATION:
+• Main customer dashboard hasn't updated since 10:45 AM (3 hours ago)
+• Customers typically check dashboards every day
+• Sales data and new customer registrations not appearing
+• Fabric pipeline &quot;Customer-Dashboard-ETL&quot; showing &quot;Failed&quot; status since 11:15
 
-STAKEHOLDER ESCALATION:
-• BOARD MEETING HAPPENED: Sales Director had to present incomplete numbers
-• CEO now directly involved: &quot;I need to understand what went wrong and when it will be fixed&quot;
-• Legal team contacted: Premium client Acme Corp formally complained about SLA breach
-• Marketing Director: &quot;Our biggest product launch campaign data is missing - this is a disaster&quot;
+IMMEDIATE IMPACT:
+• Customer service receiving calls: &quot;Why can't I see my daily sales?&quot;
+• 3 major clients have called asking about data freshness
+• Sales team can't access performance data for Friday end of week meeting
+• Marketing team reporting new customer sign-ups not showing in dashboard
 
-NEW COMPLICATIONS:
-• Data Protection Officer asking: &quot;Do we need to report this as a data incident?&quot;
-• Vendor (data source) claims their system was fine - pointing blame back to us
-• Media inquiry received: Tech journalist asking about customer data access issues
-• Competitor's sales team reportedly contacting our clients about &quot;reliability concerns&quot;
+TECHNICAL CONTEXT:
+• Pipeline failure appears to be related to overnight data source changes
+• Source system (external vendor) may have changed file format last night 
+• Data validation errors showing in pipeline logs
+• Backend databases appear healthy - issue is in data ingestion layer
 
-IMMEDIATE DECISIONS NEEDED:
-1. CEO wants personal briefing in 30 minutes - what do you tell them?
-2. Legal team needs to know: Is this an SLA breach requiring customer compensation?
-3. Communications team asking: Do we issue public statement or keep it internal?
-4. Technical decision: Continue current fix or implement faster workaround?
+STAKEHOLDER PRESSURE:
+• Sales Director needs weekly numbers for 2:30 PM board meeting (45 minutes)
+• Customer Success team escalating - premium clients are complaining
+• IT Director asking for incident report and resolution timeline
+
 </code></pre>
 <hr />
 

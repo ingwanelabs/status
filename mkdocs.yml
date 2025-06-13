@@ -17,3 +17,8 @@ theme:
    logo: material/fire
 features:
     - toc.follow
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true

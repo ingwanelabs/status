@@ -15,7 +15,10 @@ theme:
     accent: red
  icon:
    logo: material/fire
-
+features:
+    - toc.integrate
 
 # Extensions
-
+markdown_extensions:
+  - toc:
+      permalink: true

@@ -5,7 +5,7 @@ dev_addr: '0.0.0.0:8000'
 # Navigation menu
 nav:
   - Status Updates:
-    - thursday-1345.md
+    - "Thursday, 1:45 PM": thursday-1345.md
 
   - Planned Maintenance:
     - "August 8, 2025": planned-20250808.md

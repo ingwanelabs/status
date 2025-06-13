@@ -1,4 +1,6 @@
-# Thursday, 1:45 PM
+# Incident Alert
+
+## Thursday, 1:45 PM
 
 ```
 🚨 INCIDENT ALERT 🚨

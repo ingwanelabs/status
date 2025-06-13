@@ -1,4 +1,6 @@
-# Thursday, 2:45 PM
+# Incident Escalation Update
+
+## Thursday, 2:45 PM
 
 ```
 🔥 ESCALATION UPDATE 🔥

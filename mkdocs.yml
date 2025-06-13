@@ -1,20 +1,18 @@
 # Site name
-site_name: SITE NAME
-site_description: "SITE DESCRIPTION:" 
+site_description: "SITE STATUS" 
 
 # Navigation menu
 nav:
-  - Welcome: index.md
+  - Latest Status: index.md
 
 # Theme
 theme:
-    feaures:
-      - tabs
-    name: material
-    icon:
-      logo: material/cloud
-    static_templates:
-      - 404.html
+ name: material
+ palette:
+    primary: red
+    accent: red
+ icon:
+   logo: material/danger
 
 # Extensions
 markdown_extensions:
@@ -49,6 +47,3 @@ markdown_extensions:
       custom_checkbox: true
       clickable_checkbox: false
   - pymdownx.tilde
-
-plugins:
-  - search

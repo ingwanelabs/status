@@ -1,9 +1,5 @@
 # Thursday, 1:50 PM
 
-## header 2
-
-### header 3
-
 ```
 🚨 INCIDENT ALERT 🚨
 

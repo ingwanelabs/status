@@ -1,4 +1,6 @@
-# Thursday, 1:50 PM
+# Latest Status Update
+
+## Thursday, 1:50 PM
 
 ```
 🚨 INCIDENT ALERT 🚨

@@ -5,7 +5,7 @@ dev_addr: '0.0.0.0:8000'
 # Navigation menu
 nav:
   - Status Updates:
-    - "Thursday 13h30": thursday-1330.md
+    - thursday-1330.md
 
 # Theme
 theme:

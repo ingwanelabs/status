@@ -19,3 +19,11 @@ theme:
     accent: red
  icon:
    logo: material/fire
+ features:
+   - navigation.expand
+   - toc.integrate 
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true

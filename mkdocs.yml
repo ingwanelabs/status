@@ -1,5 +1,6 @@
 # Site name
-site_description: "SITE STATUS" 
+site_name: "Ingwane Labs ~ Site Status" 
+dev_addr: '0.0.0.0:8000'
 
 # Navigation menu
 nav:

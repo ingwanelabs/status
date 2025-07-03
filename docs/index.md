@@ -1,7 +1,7 @@
 # Current Status
 
 ## Recent Notices
- - [Thursday, 1:45 PM ~ INCIDENT: Customer-facing dashboard showing stale data](thursday-1345.md)
+ - [Tuesday, 1:40 PM ~ INCIDENT: Customer-facing dashboard showing stale data](tuesday-1340.md)
 
 ---
 

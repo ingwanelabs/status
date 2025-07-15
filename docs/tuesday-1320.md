@@ -27,7 +27,7 @@ TECHNICAL CONTEXT:
 • Backend databases appear healthy - issue is in data ingestion layer
 
 STAKEHOLDER PRESSURE:
-• Sales Director needs weekly numbers for 2:20 PM board meeting (in 1 hour)
+• Sales Director needs weekly numbers for 2:15 PM board meeting (in 55 minutes)
 • Customer Success team escalating - premium clients are complaining
 • IT Director asking for incident report and resolution timeline
 

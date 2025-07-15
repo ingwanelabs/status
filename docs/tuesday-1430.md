@@ -1,11 +1,11 @@
 # Incident Escalation Update
 
-## Tuesday, 2:40 PM
+## Tuesday, 2:30 PM
 
 ```
 🔥 ESCALATION UPDATE 🔥
 
-TIME: Tuesday, 2:40 PM ~ 1 hour after initial incident reported
+TIME: Tuesday, 2:30 PM ~ 1 hour 10 minutes after initial incident reported
 SITUATION DEVELOPMENT: Partial progress made, but new pressures emerging
 
 TECHNICAL UPDATE:

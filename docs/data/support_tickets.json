@@ -1,0 +1,6 @@
+[
+  {"ticket_id": 3001, "customer_ref": 1001, "issue_type": "billing", "priority": "high", "created_date": "2023-04-01"},
+  {"ticket_id": 3002, "customer_ref": 1002, "issue_type": "technical", "priority": "medium", "created_date": "2023-04-15"},
+  {"ticket_id": 3003, "customer_ref": 1004, "issue_type": "billing", "priority": "low", "created_date": "2023-05-01"},
+  {"ticket_id": 3004, "customer_ref": 1006, "issue_type": "general", "priority": "medium", "created_date": "2023-05-15"}
+]

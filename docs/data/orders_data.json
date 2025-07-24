@@ -1,0 +1,7 @@
+[
+  {"order_id": 2001, "customer_id": 1001, "amount": 150.50, "date": "2023-03-01"},
+  {"order_id": 2002, "cust_id": 1002, "total": 75.25, "order_date": "2023-03-15"},
+  {"order_id": 2003, "customer_id": 1003, "amount": -50.00, "date": "2023-04-01"},
+  {"order_id": 2004, "customer_id": 1001, "amount": 200.00, "date": ""},
+  {"order_id": 2005, "customer_id": 1005, "amount": "invalid", "date": "2023-05-01"}
+]

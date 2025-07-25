@@ -10,13 +10,15 @@
       
       
       
+        <link rel="next" href="../planned-20250908/">
+      
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
     
     
       
-        <title>Incident Escalation Update - Ingwane Labs ~ Site Status</title>
+        <title>Today - Ingwane Labs ~ Site Status</title>
       
     
     
@@ -66,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#incident-escalation-update" class="md-skip">
+        <a href="#incident-alert" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Incident Escalation Update
+              Today
             
           </span>
         </div>
@@ -197,18 +199,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
         
           
           <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
@@ -224,7 +228,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             Status Updates
@@ -235,20 +239,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../tuesday-1320/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Tuesday, 1:20 PM
+    Today
     
   </span>
   
 
       </a>
+      
     </li>
   
 
@@ -306,7 +320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../planned-20250808/" class="md-nav__link">
+      <a href="../planned-20250908/" class="md-nav__link">
         
   
   
@@ -335,6 +349,28 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../mailbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mailbox
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     
     
     
@@ -344,10 +380,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -360,8 +396,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Resources
           </label>
@@ -413,36 +449,35 @@
 
 
 
-<h1 id="incident-escalation-update">Incident Escalation Update<a class="headerlink" href="#incident-escalation-update" title="Permanent link">&para;</a></h1>
-<h2 id="tuesday-230-pm">Tuesday, 2:30 PM<a class="headerlink" href="#tuesday-230-pm" title="Permanent link">&para;</a></h2>
-<pre><code>🔥 ESCALATION UPDATE 🔥
+<h1 id="incident-alert">Incident Alert</h1>
+<h2 id="today-10-minutes-ago">Today, 10 Minutes ago.</h2>
+<pre><code>🚨 INCIDENT ALERT 🚨
 
-TIME: Tuesday, 2:30 PM ~ 1 hour 10 minutes after initial incident reported
-SITUATION DEVELOPMENT: Partial progress made, but new pressures emerging
+RECEIVED: Today, 10 minutes ago.
+INCIDENT: Customer-facing dashboard showing stale data
 
-TECHNICAL UPDATE:
-• Initial fix implemented - pipeline is now running
-• Dashboard showing some data, but still missing 40% of daily records
-• Data validation issue partially resolved, but root cause still unclear
-• Estimated 2 more hours needed for complete data backfill and validation
+SITUATION:
+• Main customer dashboard hasn't updated for 3 hours.
+• Customers typically check dashboards every day.
+• Sales data and new customer registrations not appearing.
+• Fabric pipeline &quot;Customer-Dashboard-ETL&quot; showing &quot;Failed&quot; status since early this morning.
 
-STAKEHOLDER ESCALATION:
-• BOARD MEETING HAPPENED: Sales Director had to present incomplete numbers
-• CEO now directly involved: &quot;I need to understand what went wrong and when it will be fixed&quot;
-• Legal team contacted: Premium client Acme Corp formally complained about SLA breach
-• Marketing Director: &quot;Our biggest product launch campaign data is missing - this is a disaster&quot;
+IMMEDIATE IMPACT:
+• Customer service receiving calls: &quot;Why can't I see my daily sales?&quot;
+• Three major clients have called asking about data freshness.
+• Sales team can't access performance data for Friday end of week meeting.
+• Marketing team reporting new customer sign-ups not showing in dashboard.
 
-NEW COMPLICATIONS:
-• Data Protection Officer asking: &quot;Do we need to report this as a data incident?&quot;
-• Vendor (data source) claims their system was fine - pointing blame back to us
-• Media inquiry received: Tech journalist asking about customer data access issues
-• Competitor's sales team reportedly contacting our clients about &quot;reliability concerns&quot;
+TECHNICAL CONTEXT:
+• Pipeline failure appears to be related to overnight data source changes.
+• Source system (external vendor) may have changed file format last night.
+• Data validation errors showing in pipeline logs.
+• Backend databases appear healthy - issue is in data ingestion layer.
 
-IMMEDIATE DECISIONS NEEDED:
-1. CEO wants personal briefing in 30 minutes - what do you tell them?
-2. Legal team needs to know: Is this an SLA breach requiring customer compensation?
-3. Communications team asking: Do we issue public statement or keep it internal?
-4. Technical decision: Continue current fix or implement faster workaround?
+STAKEHOLDER PRESSURE:
+• Sales Director needs weekly numbers for board meeting in 55 minutes.
+• Customer Success team escalating - premium clients are complaining.
+• IT Director asking for incident report and resolution timeline.
 
 </code></pre>
 <hr />

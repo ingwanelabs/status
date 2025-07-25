@@ -5,10 +5,12 @@ dev_addr: '0.0.0.0:8000'
 # Navigation menu
 nav:
   - Status Updates:
-    - "Tuesday, 1:20 PM": tuesday-1320.md
+    - "Today": message-202521320.md
 
   - Planned Maintenance:
-    - "August 8, 2025": planned-20250808.md
+    - "August 8, 2025": planned-20250908.md
+
+  - Mailbox: mailbox.md
 
   - Resources:
     - response-template.md
@@ -16,7 +18,7 @@ nav:
 # Existing files but not in nav
 not_in_nav: |
   index.md
-  tuesday-1430.md
+  message-202521430.md
 
 # Theme
 theme:
@@ -31,7 +33,7 @@ theme:
 
 # Extensions
 markdown_extensions:
+  - admonition
   - toc:
-      permalink: true
+      permalink: false
       toc_depth: 1
-
